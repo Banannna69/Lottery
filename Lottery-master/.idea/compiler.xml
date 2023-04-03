@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lottery-infrastructure" />
+        <module name="lottery-common" />
+        <module name="lottery-domain" />
+        <module name="lottery-Test" />
+        <module name="lottery-application" />
+        <module name="lottery-rpc" />
+        <module name="lottery-interfaces" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lottery" options="-parameters" />
+      <module name="Lottery-master" options="-parameters" />
+      <module name="lottery-Test" options="-parameters" />
+      <module name="lottery-application" options="-parameters" />
+      <module name="lottery-common" options="-parameters" />
+      <module name="lottery-domain" options="-parameters" />
+      <module name="lottery-infrastructure" options="-parameters" />
+      <module name="lottery-interfaces" options="-parameters" />
+      <module name="lottery-rpc" options="-parameters" />
+    </option>
+  </component>
+</project>

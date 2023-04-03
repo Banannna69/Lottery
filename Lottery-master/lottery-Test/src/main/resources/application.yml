@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+# Dubbo 广播方式配置
+dubbo:
+  application:
+    name: Lottery-Test
+    version: 1.0.0
+  registry:
+    #注册中心地址
+    address: zookeeper://127.0.0.1:2181
+    timeout: 30000
+  protocol:
+    name: dubbo
+    port: 20881
+
